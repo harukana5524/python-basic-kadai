@@ -1,18 +1,4 @@
-# 上辺：10cm
-# 下辺：20cm
-# 高さ：5cm
-
-# 公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
-
-
 number1 = 10
 number2 = 20
 number3 = 5
-#上辺+下辺
-number4 = (number1+number2)
-#(上辺+下辺)×高さ
-number5 = (number4*number3)
-#(上辺+下辺)×高さ÷2
-number6 = (number5/2)
-#解答
-print(str(number6)+"㎡")
+print(str(((number1 + number2) * number3) / 2) + "㎡")
