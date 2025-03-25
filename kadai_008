@@ -1,12 +1,12 @@
 import random
 
-var = random.randint(0, 10)
+var = random.randint(0, 100)
 
 print(var)
 
-if  var == 5 or var == 10:
+if  var % 5 == 0:
     print("Fizz")
-elif var == 3 or var == 6 or var == 9:
+elif var % 3 == 0:
     print("Buzz")
 else:
     print("FizzBuzz")
