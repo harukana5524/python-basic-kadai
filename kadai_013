@@ -1,0 +1,7 @@
+def add_two_arguments(price, shipping_fee):
+   
+    total = price / shipping_fee
+
+    print(f"{total}円")
+
+add_two_arguments(110, 10)
