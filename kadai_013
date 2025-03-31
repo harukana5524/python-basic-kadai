@@ -1,7 +1,12 @@
-def add_two_arguments(price, shipping_fee):
+def calculate_total_price(price, tax_rate):
    
-    total = price / shipping_fee
+    tax_amount = price * (tax_rate / 100)  
+    total_price = price + tax_amount       
+    return total_price                      
 
-    print(f"{total}円")
+product_price = 110  
+tax_rate = 10        
 
-add_two_arguments(110, 10)
+total = calculate_total_price(product_price, tax_rate)
+
+print("消費税を加えた合計金額:", total)
