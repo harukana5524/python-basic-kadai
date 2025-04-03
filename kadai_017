@@ -10,9 +10,7 @@ class Human:
         else:
             return "大人ではありません"
 
-# インスタンスを作成
 Human_data = Human("侍太郎", 36, "男性")
 
-# 年齢を確認し、その結果を出力
 result = Human_data.check_adult()
 print(result)
